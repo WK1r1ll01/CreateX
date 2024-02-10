@@ -20,12 +20,12 @@
    <div class="wrapper">
       <header class="header">
    <div class="header__container container">
-      <a href="#" class="logo"><img src="img/logo.svg" alt="logo" class="logo__img"></a>
+      <a href="#" class="logo"><img src="img/logo.svg" alt="logo" aria-hidden="true" class="logo__img"></a>
 
       <nav class="header__nav nav">
          <ul class="nav__list">
             <li class="nav__item-dropdown">
-               <a class="nav__link nav__link_dropdown">
+               <a class="nav__link nav__link_dropdown" aria-label="Open dropdown menu">
                   Services
                   <svg class="nav__link-img">
                      <use href="img/sprite.svg#triangle-stroke"></use>
@@ -33,30 +33,30 @@
                </a>
                <div class="dropdown">
                   <ul class="dropdown__list">
-                     <li class="dropdown__item"><a href="#" class="dropdown__link">Social Media Marketing</a></li>
-                     <li class="dropdown__item"><a href="#" class="dropdown__link">Search Engine Optimization</a></li>
-                     <li class="dropdown__item"><a href="#" class="dropdown__link">Research Service</a></li>
-                     <li class="dropdown__item"><a href="#" class="dropdown__link">Content & PR Service</a></li>
-                     <li class="dropdown__item"><a href="#" class="dropdown__link">Payed Traffic Management</a></li>
+                     <li class="dropdown__item"><a href="#" class="dropdown__link" aria-label="Go to page services - Social Media Marketing">Social Media Marketing</a></li>
+                     <li class="dropdown__item"><a href="#" class="dropdown__link" aria-label="Go to page services - Search Engine Optimization">Search Engine Optimization</a></li>
+                     <li class="dropdown__item"><a href="#" class="dropdown__link" aria-label="Go to page services - Research Service">Research Service</a></li>
+                     <li class="dropdown__item"><a href="#" class="dropdown__link" aria-label="Go to page services - Content & PR Service">Content & PR Service</a></li>
+                     <li class="dropdown__item"><a href="#" class="dropdown__link" aria-label="Go to page services - Payed Traffic Management">Payed Traffic Management</a></li>
                   </ul>
                </div>
             </li>
-            <li class="nav__item"><a href="#" class="nav__link">Case Studies</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">About Us</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+            <li class="nav__item"><a href="#" class="nav__link" aria-label="Go to page Case Studies">Case Studies</a></li>
+            <li class="nav__item"><a href="#" class="nav__link" aria-label="Go to page About Us">About Us</a></li>
+            <li class="nav__item"><a href="#" class="nav__link" aria-label="Go to page Blog">Blog</a></li>
+            <li class="nav__item"><a href="#" class="nav__link" aria-label="Go to page Contact">Contact</a></li>
          </ul>
       </nav>
 
-      <a href="#" class="header__btn btn btn_fill btn_header">Talk to a human</a>
+      <a href="#" class="header__btn btn btn_fill btn_header" aria-hidden="true">Talk to a human</a>
 
-      <button class="header__burger burger">
+      <button class="header__burger burger" aria-label="Open menu">
          <span class="burger__line"></span><span class="burger__line"></span><span class="burger__line"></span>
       </button>
    </div>
 </header>
       <main class="main">
-         <button class="btn-up btn-up_hidden">
+         <button class="btn-up btn-up_hidden" aria-label="Go top">
    <svg class="btn-up__img">
       <use href="img/sprite.svg#triangle-stroke"></use>
    </svg>
@@ -65,9 +65,9 @@
    <div class="hero-main__container container">
       <h1 class="hero-main__title title title_1">Best <span class="title title_cornflower-blue">SEO&nbsp;&&nbsp;Marketing </span>Solutions for You</h1>
       <div class="hero-main__btns">
-         <a href="#" class="hero-main__btn btn btn_stroke btn_stroke-white">Get a free analysis</a>
+         <a href="#" class="hero-main__btn btn btn_stroke btn_stroke-white" aria-label="Get a free analysis">Get a free analysis</a>
          <span class="hero-main__play-video">
-            <button class="play-video">
+            <button class="play-video" aria-label="Play video">
                <svg class="play-video__img">
                   <use href="img/sprite.svg#triangle-fill"></use>
                </svg>
@@ -91,7 +91,7 @@
       </ul>
    </div>
 </section>  
-         <section class="about-section">
+         <div class="about-section">
    <div class="about-section__container container">
       <p class="about-section__text">Createx SEO Agency is a full-service digital marketing agency. We help businesses make more money through a wealth of performance data and market research. We create science-based SEO strategies to empower our clients.</p>
       <ul class="about-section__list">
@@ -113,8 +113,8 @@
          </li>
       </ul>
    </div>
-</section>
-         <section class="clients">
+</div>
+         <div class="clients">
    <div class="container">
       <ul class="clients__list">
          <li class="clients__item">
@@ -137,13 +137,13 @@
          </li>
       </ul>
    </div>
-</section>
+</div>
          <section class="agency">
    <div class="agency__container container">
       <div class="agency__wrapper">
          <h2 class="agency__title title title_2">Createx Agency </h2>
          <p class="agency__text text text_base text_regular">Lacus ac mollis vitae viverra. Tincidunt est, feugiat montes, viverra ullamcorper mi dui, nulla pharetra. Sapien urna nullam elit diam mauris orci. Volutpat quam tempus justo, aliquam. Tortor ultrices mattis eget orci eu nisi sed augue odio. Et senectus risus, pharetra, tristique libero. Dolor risus ac quam dictum mattis ultrices laoreet sapien. Feugiat lacus, suscipit eu sociis et quis hendrerit. Cras at ac magna ultricies orci.</p>
-         <a href="#" class="agency__btn btn btn_fill">More about us</a>
+         <a href="#" class="agency__btn btn btn_fill" aria-label="Go more about us">More about us</a>
       </div>
       <picture>
          <source srcset="img/agency__img.webp" type="image/webp">
@@ -151,7 +151,7 @@
       </picture>
    </div>
 </section>
-         <section class="figures">
+         <div class="figures">
    <div class="container">
       <ul class="figures__list">
          <li class="figures__item">
@@ -196,17 +196,17 @@
          </li>
       </ul>
    </div>
-</section>
+</div>
          <section class="our-services">
    <div class="container">
-      <h2 class="our-services__title title_2">Our services</h2>
+      <h2 class="our-services__title title title_2">Our services</h2>
       <div class="our-services__tabs tabs" data-tabs="tab-our-services">
          <div class="our-services__tabs__nav tabs__nav">
-            <button class="our-services__tabs__nav-btn tabs__nav-btn text text_base text_bold">Social Media</button>
-            <button class="our-services__tabs__nav-btn tabs__nav-btn text text_base text_bold">SEO</button>
-            <button class="our-services__tabs__nav-btn tabs__nav-btn text text_base text_bold">Research</button>
-            <button class="our-services__tabs__nav-btn tabs__nav-btn text text_base text_bold">Content & PR</button>
-            <button class="our-services__tabs__nav-btn tabs__nav-btn text text_base text_bold">Payed Traffic</button>
+            <button class="our-services__tabs__nav-btn tabs__nav-btn text text_base text_bold" aria-label="Show Social Media content">Social Media</button>
+            <button class="our-services__tabs__nav-btn tabs__nav-btn text text_base text_bold" aria-label="Show SEO content">SEO</button>
+            <button class="our-services__tabs__nav-btn tabs__nav-btn text text_base text_bold" aria-label="Show Research content">Research</button>
+            <button class="our-services__tabs__nav-btn tabs__nav-btn text text_base text_bold" aria-label="Show Content & P content">Content & PR</button>
+            <button class="our-services__tabs__nav-btn tabs__nav-btn text text_base text_bold" aria-label="Show Payed Traffic content">Payed Traffic</button>
          </div>
          <div class="our-services__tabs__content tabs__content">
             <div class="our-services__tabs__item tabs__item">
@@ -221,8 +221,8 @@
                      <li class="our-services__tabs__item-item tabs__item-item text text_base text_regular">Sit semper enim senectus integer ut turpis et.</li>
                   </ul>
                   <div class="our-services__tabs__item-btns tabs__item-btns">
-                     <a href="#" class="btn btn_stroke btn_stroke-cornflower-blue">Learn more</a>
-                     <a href="#" class="btn btn_fill">Try SEO toolkit</a>
+                     <a href="#" class="btn btn_stroke btn_stroke-cornflower-blue" aria-label="Learn more">Learn more</a>
+                     <a href="#" class="btn btn_fill" aria-label="Try SEO toolkit">Try SEO toolkit</a>
                   </div>
                </div>
                <picture>   
@@ -242,8 +242,8 @@
                      <li class="our-services__tabs__item-item tabs__item-item text text_base text_regular">Sit semper enim senectus integer ut turpis et.</li>
                   </ul>
                   <div class="our-services__tabs__item-btns tabs__item-btns">
-                     <a href="#" class="btn btn_stroke btn_stroke-cornflower-blue">Learn more</a>
-                     <a href="#" class="btn btn_fill">Try SEO toolkit</a>
+                     <a href="#" class="btn btn_stroke btn_stroke-cornflower-blue" aria-label="Learn more">Learn more</a>
+                     <a href="#" class="btn btn_fill" aria-label="Try SEO toolkit">Try SEO toolkit</a>
                   </div>
                </div>
                <picture>   
@@ -263,8 +263,8 @@
                      <li class="our-services__tabs__item-item tabs__item-item text text_base text_regular">Sit semper enim senectus integer ut turpis et.</li>
                   </ul>
                   <div class="our-services__tabs__item-btns tabs__item-btns">
-                     <a href="#" class="btn btn_stroke btn_stroke-cornflower-blue">Learn more</a>
-                     <a href="#" class="btn btn_fill">Try SEO toolkit</a>
+                     <a href="#" class="btn btn_stroke btn_stroke-cornflower-blue" aria-label="Learn more">Learn more</a>
+                     <a href="#" class="btn btn_fill" aria-label="Try SEO toolkit">Try SEO toolkit</a>
                   </div>
                </div>
                <picture>   
@@ -284,8 +284,8 @@
                      <li class="our-services__tabs__item-item tabs__item-item text text_base text_regular">Sit semper enim senectus integer ut turpis et.</li>
                   </ul>
                   <div class="our-services__tabs__item-btns tabs__item-btns">
-                     <a href="#" class="btn btn_stroke btn_stroke-cornflower-blue">Learn more</a>
-                     <a href="#" class="btn btn_fill">Try SEO toolkit</a>
+                     <a href="#" class="btn btn_stroke btn_stroke-cornflower-blue" aria-label="Learn more">Learn more</a>
+                     <a href="#" class="btn btn_fill" aria-label="Try SEO toolkit">Try SEO toolkit</a>
                   </div>
                </div>
                <picture>   
@@ -305,8 +305,8 @@
                      <li class="our-services__tabs__item-item tabs__item-item text text_base text_regular">Sit semper enim senectus integer ut turpis et.</li>
                   </ul>
                   <div class="our-services__tabs__item-btns tabs__item-btns">
-                     <a href="#" class="btn btn_stroke btn_stroke-cornflower-blue">Learn more</a>
-                     <a href="#" class="btn btn_fill">Try SEO toolkit</a>
+                     <a href="#" class="btn btn_stroke btn_stroke-cornflower-blue" aria-label="Learn more">Learn more</a>
+                     <a href="#" class="btn btn_fill" aria-label="Try SEO toolkit">Try SEO toolkit</a>
                   </div>
                </div>
                <picture>   
@@ -350,7 +350,8 @@
 </section>
          <section class="faq">
    <div class="container">
-      <h2 class="faq__title title_2">Freequently Ask Questions</h2>
+      <h2 class="faq__title title title title_2">Freequently Ask Questions</h2>
+      
       <div class="faq__wrapper">
          <div class="faq__accordion accordion-content">
             <div class="accordion accordion-1">
@@ -377,7 +378,7 @@
          </div>
          <img src="img/illustration-3.svg" alt="img" class="faq__img" aria-hidden="true">
       </div>
-      <a href="#" class="faq__btn btn btn_fill">Discover more</a>
+      <a href="#" class="faq__btn btn btn_fill" aria-label="Go pages to discover more">Discover more</a>
    </div>
 </section>
          <section class="cases-studies-section">
@@ -542,12 +543,12 @@
          <div class="cases-studies-section__swiper-pagination swiper-pagination"></div>             
       </div>      
       <div class="cases-studies-section__swiper__btns">
-         <button class="cases-studies-section__swiper-btn cases-studies-section__swiper-btn-prev swiper-btn swiper-btn-prev">
+         <button class="cases-studies-section__swiper-btn cases-studies-section__swiper-btn-prev swiper-btn swiper-btn-prev" aria-label="Prev slide">
             <svg class="cases-studies-section__swiper-btn__img cases-studies-section__swiper-btn-prev__img swiper-btn__img swiper-btn-prev__img">
                <use href="img/sprite.svg#arrow"></use>
             </svg>
          </button>
-         <button class="cases-studies-section__swiper-btn cases-studies-section__swiper-btn-next swiper-btn swiper-btn-next">
+         <button class="cases-studies-section__swiper-btn cases-studies-section__swiper-btn-next swiper-btn swiper-btn-next" aria-label="Next slide">
             <svg class="cases-studies-section__swiper-btn__img cases-studies-section__swiper-btn-next__img swiper-btn__img swiper-btn-next__img">
                <use href="img/sprite.svg#arrow"></use>
             </svg>
@@ -561,7 +562,7 @@
 </section>
          <section class="our-benefits">
    <div class="container">
-      <h2 class="our-benefits__title title_2">Our benefits</h2>
+      <h2 class="our-benefits__title title title_2">Our benefits</h2>
       <ul class="our-benefits__list">
          <li class="our-benefits__item">
             <img src="img/icon__speaker.svg" alt="img" aria-hidden="true" class="our-benefits__item-img">
@@ -598,11 +599,11 @@
 </section>
          <section class="pricing">
    <div class="container">
-      <h2 class="pricing__title title_2">Flexible pricing plans</h2>
+      <h2 class="pricing__title title title_2">Flexible pricing plans</h2>
       <div class="pricing__tabs tabs" data-tabs="tab-pricing">
          <div class="pricing__tabs__nav tabs__nav">
-            <button class="pricing__tabs__nav-btn tabs__nav-btn">Mounthly</button>
-            <button class="pricing__tabs__nav-btn tabs__nav-btn">Yearly <span class="pricing__tabs__nav-btn pricing__tabs__nav-btn_small">-12% Off</span></button>
+            <button class="pricing__tabs__nav-btn tabs__nav-btn" aria-label="Show Mounthly pricing">Mounthly</button>
+            <button class="pricing__tabs__nav-btn tabs__nav-btn" aria-label="Show Yearly pricing">Yearly <span class="pricing__tabs__nav-btn pricing__tabs__nav-btn_small">-12% Off</span></button>
          </div>
          <div class="pricing__tabs__content tabs__content">
             <div class="pricing__tabs__item tabs__item">
@@ -623,7 +624,7 @@
                         <li class="pricing-card__item text text_base text_regular">Strategy & Marketing</li>
                         <li class="pricing-card__item text text_base text_regular">Information Technology</li>
                      </ul>
-                     <a href="#" class="pricing-card__btn btn btn_stroke-cornflower-blue">Choose plan</a>
+                     <a href="#" class="pricing-card__btn btn btn_stroke-cornflower-blue" aria-label="Choose plan pricing">Choose plan</a>
                   </li>
                   <li class="pricing__item pricing-card">
                      <h3 class="pricing-card__title title title_3">Optimal</h3>
@@ -641,7 +642,7 @@
                         <li class="pricing-card__item text text_base text_regular">Strategy & Marketing</li>
                         <li class="pricing-card__item text text_base text_regular">Information Technology</li>
                      </ul>
-                     <a href="#" class="pricing-card__btn btn btn_fill">Choose plan</a>
+                     <a href="#" class="pricing-card__btn btn btn_fill" aria-label="Choose plan pricing">Choose plan</a>
                   </li>
                   <li class="pricing__item pricing-card">
                      <h3 class="pricing-card__title title title_3">Premium</h3>
@@ -659,7 +660,7 @@
                         <li class="pricing-card__item text text_base text_regular">Strategy & Marketing</li>
                         <li class="pricing-card__item text text_base text_regular">Information Technology</li>
                      </ul>
-                     <a href="#" class="pricing-card__btn btn btn_stroke-cornflower-blue">Choose plan</a>
+                     <a href="#" class="pricing-card__btn btn btn_stroke-cornflower-blue" aria-label="Choose plan pricing">Choose plan</a>
                   </li>
                </ul>
             </div>
@@ -681,7 +682,7 @@
                         <li class="pricing-card__item text text_base text_regular">Strategy & Marketing</li>
                         <li class="pricing-card__item text text_base text_regular">Information Technology</li>
                      </ul>
-                     <a href="#" class="pricing-card__btn btn btn_stroke-cornflower-blue">Choose plan</a>
+                     <a href="#" class="pricing-card__btn btn btn_stroke-cornflower-blue" aria-label="Choose plan pricing">Choose plan</a>
                   </li>
                   <li class="pricing__item pricing-card">
                      <h3 class="pricing-card__title title title_3">Optimal</h3>
@@ -699,7 +700,7 @@
                         <li class="pricing-card__item text text_base text_regular">Strategy & Marketing</li>
                         <li class="pricing-card__item text text_base text_regular">Information Technology</li>
                      </ul>
-                     <a href="#" class="pricing-card__btn btn btn_fill">Choose plan</a>
+                     <a href="#" class="pricing-card__btn btn btn_fill" aria-label="Choose plan pricing">Choose plan</a>
                   </li>
                   <li class="pricing__item pricing-card">
                      <h3 class="pricing-card__title title title_3">Premium</h3>
@@ -717,7 +718,7 @@
                         <li class="pricing-card__item text text_base text_regular">Strategy & Marketing</li>
                         <li class="pricing-card__item text text_base text_regular">Information Technology</li>
                      </ul>
-                     <a href="#" class="pricing-card__btn btn btn_stroke-cornflower-blue">Choose plan</a>
+                     <a href="#" class="pricing-card__btn btn btn_stroke-cornflower-blue" aria-label="Choose plan pricing">Choose plan</a>
                   </li>
                </ul>
             </div>
@@ -773,12 +774,12 @@
          <div class="testimonials__swiper-pagination swiper-pagination"></div> 
       </div>
       <div class="testimonials__swiper__btns">
-         <button class="testimonials__swiper-btn testimonials__swiper-btn-prev swiper-btn swiper-btn-prev">
+         <button class="testimonials__swiper-btn testimonials__swiper-btn-prev swiper-btn swiper-btn-prev" aria-label="Prev slide">
             <svg class="testimonials__swiper-btn__img testimonials__swiper-btn-prev__img swiper-btn__img swiper-btn-prev__img">
                <use href="img/sprite.svg#arrow"></use>
             </svg>
          </button>
-         <button class="testimonials__swiper-btn testimonials__swiper-btn-next swiper-btn swiper-btn-next">
+         <button class="testimonials__swiper-btn testimonials__swiper-btn-next swiper-btn swiper-btn-next" aria-label="Next slide">
             <svg class="testimonials__swiper-btn__img testimonials__swiper-btn-next__img swiper-btn__img swiper-btn-next__img">
                <use href="img/sprite.svg#arrow"></use>
             </svg>
@@ -791,7 +792,7 @@
       <div class="news__wrapper">
          <h2 class="news__title title title_2">Latest news</h2>
          <span class="news__text text text_lead text_regular">Check more posts in our blog for featured news and advertising insights</span>
-         <a href="#" class="news__btn btn btn_fill">Go to blog</a>
+         <a href="#" class="news__btn btn btn_fill" aria-label="Go to page our blog">Go to blog</a>
       </div>
       <ul class="news__list">
          <li class="news__item news-item">
@@ -806,7 +807,7 @@
             </div>
             <span class="news-item__span text text_lead text_bold text_ebony-gray">How to Maximize Your ROI Through Scientific SEM?</span>
             <p class="news-item__text text text_base text_regular">Vulputate vitae pellentesque scelerisque luctus consequat mattis pellentesque dui odio...</p>
-            <a href="#" class="news-item__link text text_base text_bold">Read more</a>
+            <a href="#" class="news-item__link text text_base text_bold" aria-label="Ream more">Read more</a>
          </li>
          <li class="news__item news-item">
             <picture>
@@ -820,7 +821,7 @@
             </div>
             <span class="news-item__span text text_lead text_bold text_ebony-gray">The Basics of Blogging Search Engine Optimization.</span>
             <p class="news-item__text text text_base text_regular">Mauris tincidunt sollicitudin tristique odio eget volutpat. Fringilla viverra amet, mi interdum blandit...</p>
-            <a href="#" class="news-item__link text text_base text_bold">Read more</a>
+            <a href="#" class="news-item__link text text_base text_bold" aria-label="Ream more">Read more</a>
          </li>
       </ul>
    </div>
@@ -834,28 +835,28 @@
             <p class="footer__text text text_small text_regular">Createx SEO Agency is a full-service digital marketing agency. We help businesses make more money through a wealth of performance data and market research. We create science-based SEO strategies to empower our clients.</p>
             <ul class="footer__soc-list">
                <li class="footer__soc-item">
-                  <a href="#" class="footer__soc-item__link">
+                  <a href="#" class="footer__soc-item__link" aria-label="Go to our facebook">
                      <svg class="footer__soc-item__img">
                         <use href="img/sprite.svg#fb"></use>
                      </svg>
                   </a>                  
                </li>
                <li class="footer__soc-item">
-                  <a href="#" class="footer__soc-item__link">
+                  <a href="#" class="footer__soc-item__link" aria-label="Go to our in">
                      <svg class="footer__soc-item__img">
                         <use href="img/sprite.svg#in"></use>
                      </svg>
                   </a>              
                </li>
                <li class="footer__soc-item">
-                  <a href="#" class="footer__soc-item__link">
+                  <a href="#" class="footer__soc-item__link" aria-label="Go to our twitter">
                      <svg class="footer__soc-item__img">
                         <use href="img/sprite.svg#tw"></use>
                      </svg>
                   </a>                
                </li>
                <li class="footer__soc-item">
-                  <a href="#" class="footer__soc-item__link">
+                  <a href="#" class="footer__soc-item__link" aria-label="Go to our instagram">
                      <svg class="footer__soc-item__img">
                         <use href="img/sprite.svg#inst"></use>
                      </svg>
@@ -867,28 +868,28 @@
             <div class="footer__column">
                <span class="footer__column-title">Company</span>
                <ul class="footer__column-list">
-                  <li class="footer__column-item"><a href="#" class="footer__column-link text text_base text_regular">About Us</a></li>
-                  <li class="footer__column-item"><a href="#" class="footer__column-link text text_base text_regular">Case Studies</a></li>
-                  <li class="footer__column-item"><a href="#" class="footer__column-link text text_base text_regular">Blog</a></li>
-                  <li class="footer__column-item"><a href="#" class="footer__column-link text text_base text_regular">Careers</a></li>
-                  <li class="footer__column-item"><a href="#" class="footer__column-link text text_base text_regular">Contacts</a></li>
+                  <li class="footer__column-item"><a href="#" class="footer__column-link text text_base text_regular" aria-label="Go to page About Us">About Us</a></li>
+                  <li class="footer__column-item"><a href="#" class="footer__column-link text text_base text_regular" aria-label="Go to page Case Studies">Case Studies</a></li>
+                  <li class="footer__column-item"><a href="#" class="footer__column-link text text_base text_regular" aria-label="Go to page Blog">Blog</a></li>
+                  <li class="footer__column-item"><a href="#" class="footer__column-link text text_base text_regular" aria-label="Go to page Careers">Careers</a></li>
+                  <li class="footer__column-item"><a href="#" class="footer__column-link text text_base text_regular" aria-label="Go to page Contacts">Contacts</a></li>
                </ul>
             </div>
             <div class="footer__column">
                <span class="footer__column-title">Services</span>
                <ul class="footer__column-list">
-                  <li class="footer__column-item"><a href="#" class="footer__column-link text text_base text_regular">Social Media</a></li>
-                  <li class="footer__column-item"><a href="#" class="footer__column-link text text_base text_regular">SEO</a></li>
-                  <li class="footer__column-item"><a href="#" class="footer__column-link text text_base text_regular">Research</a></li>
-                  <li class="footer__column-item"><a href="#" class="footer__column-link text text_base text_regular">Content & PR</a></li>
-                  <li class="footer__column-item"><a href="#" class="footer__column-link text text_base text_regular">Payed Traffic</a></li>
+                  <li class="footer__column-item"><a href="#" class="footer__column-link text text_base text_regular" aria-label="Go to page Social Media">Social Media</a></li>
+                  <li class="footer__column-item"><a href="#" class="footer__column-link text text_base text_regular" aria-label="Go to page SEO">SEO</a></li>
+                  <li class="footer__column-item"><a href="#" class="footer__column-link text text_base text_regular" aria-label="Go to page Research">Research</a></li>
+                  <li class="footer__column-item"><a href="#" class="footer__column-link text text_base text_regular" aria-label="Go to page Content & PR">Content & PR</a></li>
+                  <li class="footer__column-item"><a href="#" class="footer__column-link text text_base text_regular" aria-label="Go to page Payed Traffic">Payed Traffic</a></li>
                </ul>
             </div>
             <div class="footer__column">
                <span class="footer__column-title">Contact us</span>
                <ul class="footer__column-list">
                   <li class="footer__column-item">
-                     <a href="tel:+4055550128" class="footer__column-link text text_base text_regular">
+                     <a href="tel:+4055550128" class="footer__column-link text text_base text_regular" aria-label="Call us">
                         <svg class="footer__column-link__img">
                            <use href="img/sprite.svg#tel"></use>
                         </svg>
@@ -896,7 +897,7 @@
                      </a>
                   </li>
                   <li class="footer__column-item">
-                     <a href="mailto:hello@createx.com" class="footer__column-link text text_base text_regular">
+                     <a href="mailto:hello@createx.com" class="footer__column-link text text_base text_regular" aria-label="Write us to email">
                         <svg class="footer__column-link__img">
                            <use href="img/sprite.svg#mail"></use>
                         </svg>
